@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Timer from './pages/comingsoon/components/Countdown/Timer';
+import Preloader from './pages/comingsoon/components/Preloader/Preloader'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>
+        HelloProfile is Coming Soon...
+      </h1>
+      <h3> We're currently burning calories to build something awesome for you, stay tuned!</h3>
+     <Timer/>
+      <Preloader />
     </div>
+  </div>
   );
 }
 
