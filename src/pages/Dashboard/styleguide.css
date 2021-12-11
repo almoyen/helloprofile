@@ -1,0 +1,208 @@
+:root { 
+  --active: #49e213;
+  --alto: #dddddd;
+  --black: #000000;
+  --black-2: #0000000d;
+  --brand-black: #1c222d;
+  --brand-gray: #747272;
+  --brand-light-gray: #e6e7e9;
+  --concrete: #f3f3f3;
+  --eerie-black: #181819e6;
+  --eerie-black-2: #181819b2;
+  --granite-gray: #666666;
+  --haiti: #200e32;
+  --licorice: #111111;
+  --loblolly: #c1c7d0;
+  --log-cabin: #222222;
+  --main-brand: #00c1ff;
+  --main-gray: #fafafa;
+  --mine-shaft: #333333;
+  --stroke: #0000001a;
+  --tangaroa: #091e42;
+  --white: #ffffff;
+ 
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+  --font-size-xl: 18px;
+  --font-size-xxl: 20px;
+  --font-size-xxxl: 24px;
+  --font-size-xxxxl: 35px;
+ 
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-mulish: "Mulish", Helvetica;
+}
+.body {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.status {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.headingh2 {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.headingh5 {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.captionregular {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.subtitleregular {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.montserrat-normal-tangaroa-14px {
+  color: var(--tangaroa);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-licorice-12px {
+  color: var(--licorice);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-semi-bold-tangaroa-14px {
+  color: var(--tangaroa);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mulish-normal-sonic-silver-16px {
+  color: var(--brand-gray);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mulish-bold-eerie-black-16px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-semi-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mulish-semi-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-normal-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mulish-normal-shark-16px {
+  color: var(--brand-black);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mulish-bold-robins-egg-blue-16px {
+  color: var(--main-brand);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-tangaroa-35px {
+  color: var(--tangaroa);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.mulish-normal-white-16px {
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mulish-normal-eerie-black-16px {
+  color: var(--eerie-black-2);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mulish-normal-shark-14px {
+  color: var(--brand-black);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-1px-stroke {
+  border: 1px solid var(--stroke);
+}
+
+.border-1px-alto {
+  border: 1px solid var(--alto);
+}
+
+.border-1px-brand-light-gray {
+  border: 1px solid var(--brand-light-gray);
+}
+
+.border-2px-haiti {
+  border: 2px solid var(--haiti);
+}

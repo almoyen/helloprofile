@@ -1,20 +1,33 @@
-import './App.css';
-import Timer from './pages/comingsoon/components/Countdown/Timer';
-import Preloader from './pages/comingsoon/components/Preloader/Preloader'
+import "./App.css"
+import DashboardSideNavClosed from "./pages/Dashboard/DashboardSideNavClosed";
 
-function App() {
-  return (
-    <div className="App">
-    <div className="container">
-      <h1>
-        HelloProfile is Coming Soon...
-      </h1>
-      <h3> We're currently burning calories to build something awesome for you, stay tuned!</h3>
-     <Timer/>
-      <Preloader />
-    </div>
-  </div>
-  );
+import DashboardSideNavOpen from './pages/Dashboard/DashboardSideNavOpen';
+import React, { Component } from 'react'
+
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+        navBarOpen: false
+    };
+  }
+
+  openSideBar = () => {
+    this.setState({navBarOpen: true})
+  }
+
+  closeSideBar = () => {
+    this.setState({navBarOpen: false})
+  }
+  render() {
+    return (
+      <div>
+          {this.state.navBarOpen ? 
+          <DashboardSideNavOpen close = {this.closeSideBar}/> 
+          :<DashboardSideNavClosed open = {this.openSideBar}/>}
+      </div>
+    )
+  }
 }
 
-export default App;
