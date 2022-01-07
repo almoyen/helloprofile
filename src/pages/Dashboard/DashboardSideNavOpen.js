@@ -1,14 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./Dashboard.css"
 import "./styleguide.css"
+import { useDispatch } from 'react-redux'
 
-export default class DashboardSideNavOpen extends Component {
+const DashboardSideNavOpen = props => {
 
-  closeSideBar = () => {
-    this.props.close()
+  const dispatch = useDispatch();
+
+  const closeSideBar = () => {
+    dispatch({type: "closeBurgerMenu", payload: false})
   }
     
-    render() {
         return (
             <div>
   <input type="hidden" id="anPageName" name="page" defaultValue="desktop-17" />
@@ -16,7 +18,7 @@ export default class DashboardSideNavOpen extends Component {
     <div className="desktop-17 screen">
       <div className="nav-bar border-1px-stroke">
         <div  className="align-self-flex-center">
-          <img alt = ""  className="menu" src="img/menu@2x.svg" onClick = {this.closeSideBar} /> </div>
+          <img alt = ""  className="menu" src="img/menu@2x.svg" onClick = {closeSideBar} /> </div>
         <div className="helloprofile valign-text-middle headingh2">helloprofile</div>
         <div className="seperator" />
         <div className="dashboard valign-text-middle subtitleregular">Dashboard</div>
@@ -48,7 +50,7 @@ export default class DashboardSideNavOpen extends Component {
           </div>
           <img alt = ""  className="rectangle-881" src="img/rectangle-881@2x.png" />
       </div>
-      <div onMouseLeave = {this.closeSideBar} className="frame-1149 border-1px-stroke">
+      <div className="frame-1149 border-1px-stroke">
         <img alt = ""  className="rectangle-881-1" src="img/rectangle-881-1@2x.png" />
         <div className="group-1148">
           <div className="overlap-group-2">
@@ -290,4 +292,5 @@ export default class DashboardSideNavOpen extends Component {
           
         )
     }
-}
+
+export default DashboardSideNavOpen;    

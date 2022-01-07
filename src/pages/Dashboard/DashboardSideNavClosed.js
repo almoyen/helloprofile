@@ -1,14 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./Dashboard.css"
 import "./styleguide.css"
+import { useDispatch } from 'react-redux'
 
 
-export default class DashboardSideNavClosed extends Component {
+ const DashboardSideNavClosed = props => {
+  
+  const dispatch = useDispatch()
 
-    openSideBar = () => {
-        this.props.open()
+   const openSideBar = () => {
+        dispatch({type: "openBurgerMenu", payload: true})
     }
-    render() {
         return (
             <div>
             <input type="hidden" id="anPageName" name="page" defaultValue="desktop-16" />
@@ -50,11 +52,11 @@ export default class DashboardSideNavClosed extends Component {
                   <img alt = "" className="menu" src="img/menu-1@2x.svg" />
                 </div>
                 <div className="flex-row">
-                  <div onMouseEnter = {this.openSideBar} className="frame-1146 border-1px-stroke">
+                  <div onMouseEnter ={openSideBar} className="frame-1146 border-1px-stroke">
                     <div className="overlap-group4">
                       <div className="group-1130">
                         <div className="hero-title-headingsl-1 valign-text-middle montserrat-bold-tangaroa-35px" 
-                        onClick = {this.openSideBar}>
+                        onClick = {openSideBar}>
                             JS</div>
                         <div className="overlap-group1">
                           <div className="ellipse_736 border-2px-haiti" />
@@ -261,4 +263,6 @@ export default class DashboardSideNavClosed extends Component {
 
         )
     }
-}
+
+export default DashboardSideNavClosed;    
+
