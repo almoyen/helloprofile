@@ -1,0 +1,1235 @@
+/* screen - desktop-26 */
+
+.desktop-26 {
+    align-items: flex-start;
+    background-color: var(--main-gray);
+    display: flex;
+    height: 1165px;
+    justify-content: center;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .desktop-26 .nav-bar {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    height: 74px;
+    left: -1px;
+    min-width: 1442px;
+    padding: 16px 24px;
+    position: fixed;
+    top: -1px;
+    z-index: 4;
+  }
+  
+  .desktop-26 .menu {
+    height: 32px;
+    margin-bottom: 2.0px;
+    width: 32px;
+  }
+  
+  .desktop-26 .helloprofile {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-bottom: 4.0px;
+    margin-left: 16px;
+    min-width: 140px;
+    white-space: nowrap;
+  }
+  
+  .desktop-26 .seperator {
+    align-self: flex-start;
+    background-color: var(--loblolly);
+    border-radius: 2px;
+    height: 40px;
+    margin-left: 20px;
+    width: 1px;
+  }
+  
+  .desktop-26 .dashboard {
+    color: var(--tangaroa);
+    font-weight: 400;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 2.0px;
+    margin-left: 16px;
+    white-space: nowrap;
+    width: 106px;
+  }
+  
+  .desktop-26 .seperator-1 {
+    align-self: flex-start;
+    background-color: var(--loblolly);
+    border-radius: 2px;
+    height: 40px;
+    margin-left: 852px;
+    width: 1px;
+  }
+  
+  .desktop-26 .overlap-group3 {
+    height: 22px;
+    margin-bottom: 2.04px;
+    margin-left: 26px;
+    position: relative;
+    width: 21px;
+  }
+  
+  .desktop-26 .ellipse_739 {
+    border-radius: 9.99px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+  }
+  
+  .desktop-26 .line_181 {
+    height: 7px;
+    left: 15px;
+    position: absolute;
+    top: 15px;
+    width: 6px;
+  }
+  
+  .desktop-26 .overlap-group2 {
+    align-self: flex-start;
+    height: 25px;
+    margin-left: 30px;
+    margin-top: 4px;
+    position: relative;
+    width: 26px;
+  }
+  
+  .desktop-26 .message {
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 20px;
+  }
+  
+  .desktop-26 .overlap-group-2 {
+    align-items: flex-start;
+    background-color: var(--main-brand);
+    border-radius: 6px;
+    display: flex;
+    height: 12px;
+    left: 14px;
+    min-width: 12px;
+    padding: 1.5px 3px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .desktop-26 .number {
+    height: 8px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    width: 6px;
+  }
+  
+  .desktop-26 .group-container {
+    height: 27px;
+    margin-bottom: 7.0px;
+    margin-left: 24px;
+    position: relative;
+    width: 23px;
+  }
+  
+  .desktop-26 .group-1128 {
+    height: 22px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 19px;
+  }
+  
+  .desktop-26 .overlap-group-3 {
+    align-items: flex-start;
+    background-color: var(--main-brand);
+    border-radius: 6px;
+    display: flex;
+    height: 12px;
+    left: 11px;
+    min-width: 12px;
+    padding: 1.5px 3px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .desktop-26 .rectangle-881 {
+    height: 30px;
+    margin-bottom: 2.0px;
+    margin-left: 28px;
+    width: 30px;
+  }
+  
+  .desktop-26 .frame-1149 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    min-height: 800px;
+    padding: 16px 0;
+    width: 216px;
+    z-index: 3;
+  }
+  
+  .desktop-26 .rectangle-881-1 {
+    height: 100px;
+    margin-top: 15px;
+    width: 100px;
+  }
+  
+  .desktop-26 .flex-row-1 {
+    align-items: center;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 20.65px;
+    margin-top: 30px;
+    min-width: 123px;
+  }
+  
+  .desktop-26 .overlap-group1 {
+    height: 18px;
+    margin-bottom: 1.65px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .desktop-26 .ellipse_736 {
+    border-radius: 5.2px;
+    height: 10px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+  }
+  
+  .desktop-26 .path_33945 {
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 16px;
+  }
+  
+  .desktop-26 .my-account {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 21px;
+    min-width: 86px;
+    white-space: nowrap;
+  }
+  
+  .desktop-26 .vector-5 {
+    height: 2px;
+    margin-top: 20px;
+    width: 190px;
+  }
+  
+  .desktop-26 .flex-row-2 {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 30.0px;
+    margin-top: 30px;
+    min-width: 146px;
+  }
+  
+  .desktop-26 .category {
+    height: 18px;
+    width: 18px;
+  }
+  
+  .desktop-26 .group-1124 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 0;
+    min-width: 108px;
+  }
+  
+  .desktop-26 .overview {
+    height: 17px;
+    letter-spacing: 0;
+    width: 106px;
+  }
+  
+  .desktop-26 .overlap-group9 {
+    align-items: center;
+    background-color: var(--robins-egg-blue);
+    display: flex;
+    height: 40px;
+    margin-top: 17px;
+    min-width: 216px;
+    padding: 0 20.7px;
+  }
+  
+  .desktop-26 .document {
+    height: 18px;
+    width: 17px;
+  }
+  
+  .desktop-26 .contact-manager {
+    height: 17px;
+    letter-spacing: 0;
+    margin-bottom: 1.0px;
+    margin-left: 20px;
+    min-width: 123px;
+  }
+  
+  .desktop-26 .flex-row-3 {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 25.39px;
+    margin-top: 17px;
+    min-width: 151px;
+  }
+  
+  .desktop-26 .work {
+    align-self: flex-end;
+    height: 18px;
+    width: 19px;
+  }
+  
+  .desktop-26 .profile-manager {
+    cursor: pointer;
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 19px;
+  }
+  
+  .desktop-26 .flex-row-4 {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 33.0px;
+    margin-top: 28px;
+    min-width: 143px;
+  }
+  
+  .desktop-26 .chart {
+    align-self: flex-end;
+    height: 18px;
+    width: 18px;
+  }
+  
+  .desktop-26 .analytics {
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 19px;
+    width: 106px;
+  }
+  
+  .desktop-26 .flex-row-5 {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 20.9px;
+    margin-top: 28px;
+    min-width: 96px;
+  }
+  
+  .desktop-26 .overlap-group-4 {
+    align-items: flex-start;
+    align-self: flex-end;
+    background-image: url(./img/path-33946@2x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    height: 18px;
+    justify-content: flex-end;
+    min-width: 17px;
+    padding: 5.8px 5.3px;
+  }
+  
+  .desktop-26 .ellipse_737 {
+    border-radius: 3.19px;
+    height: 6px;
+    width: 6px;
+  }
+  
+  .desktop-26 .settings {
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 20px;
+  }
+  
+  .desktop-26 .flex-row-6 {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 30.0px;
+    margin-top: 28px;
+    min-width: 146px;
+  }
+  
+  .desktop-26 .group-1125 {
+    align-self: flex-end;
+    height: 18px;
+    width: 18px;
+  }
+  
+  .desktop-26 .help-support {
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 20px;
+  }
+  
+  .desktop-26 .flex-row-7 {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+    min-width: 82px;
+  }
+  
+  .desktop-26 .group-7080 {
+    height: 19px;
+    width: 18px;
+  }
+  
+  .desktop-26 .about {
+    align-self: flex-end;
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 20px;
+    min-width: 44px;
+  }
+  
+  .desktop-26 .vector-6 {
+    height: 2px;
+    margin-top: 208px;
+    width: 190px;
+  }
+  
+  .desktop-26 .flex-row-8 {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 19.73px;
+    margin-top: 26px;
+    min-width: 98px;
+  }
+  
+  .desktop-26 .logout {
+    height: 18px;
+    width: 19px;
+  }
+  
+  .desktop-26 .log-out {
+    color: var(--red);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 22px;
+  }
+  
+  .desktop-26 .flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    margin-top: 85px;
+    min-height: 1040px;
+    width: 956px;
+    z-index: 1;
+  }
+  
+  .desktop-26 .flex-row-9 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 8px;
+    display: flex;
+    height: 206px;
+    min-width: 940px;
+    padding: 0 28px;
+  }
+  
+  .desktop-26 .flex-col-1 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    min-height: 187px;
+    width: 429px;
+  }
+  
+  .desktop-26 .hero-title-headingsl {
+    height: 40px;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-left: 1px;
+    white-space: nowrap;
+  }
+  
+  .desktop-26 .ut-est-et-deserunt-e {
+    color: var(--black);
+    font-weight: 500;
+    line-height: 21px;
+    margin-top: 17px;
+    min-height: 42px;
+    text-align: justify;
+    width: 361px;
+  }
+  
+  .desktop-26 .flex-row-10 {
+    align-items: flex-start;
+    display: flex;
+    height: 25px;
+    margin-left: 9px;
+    margin-top: 49px;
+    min-width: 385px;
+  }
+  
+  .desktop-26 .all {
+    color: var(--black);
+    font-weight: 500;
+    line-height: 21px;
+    min-height: 21px;
+    min-width: 19px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-26 .personal-profile {
+    color: var(--black);
+    font-weight: 500;
+    line-height: 21px;
+    margin-left: 64px;
+    min-height: 21px;
+    min-width: 113px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-26 .work-proile {
+    color: var(--main-brand);
+    font-weight: 700;
+    line-height: 21px;
+    margin-left: 107px;
+    min-height: 25px;
+    text-align: center;
+    white-space: nowrap;
+    width: 82px;
+  }
+  
+  .desktop-26 .rectangle-869 {
+    align-self: flex-end;
+    background-color: var(--main-brand);
+    border-radius: 20px;
+    height: 5px;
+    margin-top: 9px;
+    width: 153px;
+  }
+  
+  .desktop-26 .flex-row-11 {
+    align-items: flex-end;
+    display: flex;
+    height: 158px;
+    margin-left: 61px;
+    margin-top: 12.0px;
+    min-width: 392px;
+  }
+  
+  .desktop-26 .portfolio-page {
+    color: var(--black);
+    font-weight: 500;
+    line-height: 21px;
+    min-height: 21px;
+    min-width: 102px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-26 .place {
+    color: var(--black);
+    font-weight: 500;
+    line-height: 21px;
+    margin-left: 98px;
+    min-height: 21px;
+    min-width: 38px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-26 .flex-col-2 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+    min-height: 158px;
+    width: 150px;
+  }
+  
+  .desktop-26 .overlap-group1-1 {
+    align-items: center;
+    background-color: var(--brand-light-blue);
+    border-radius: 8px;
+    display: flex;
+    height: 48px;
+    min-width: 150px;
+    padding: 0 16.5px;
+  }
+  
+  .desktop-26 .group-1147 {
+    height: 12px;
+    width: 13px;
+  }
+  
+  .desktop-26 .hero-title-headingsl-1 {
+    height: 18px;
+    letter-spacing: 0;
+    margin-left: 7px;
+    min-width: 94px;
+  }
+  
+  .desktop-26 .scanned {
+    color: var(--black);
+    font-weight: 500;
+    line-height: 21px;
+    margin-right: 11px;
+    margin-top: 89px;
+    min-height: 21px;
+    min-width: 63px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-26 .frame-7125::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
+  
+  .desktop-26 .frame-7125 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 578px;
+    margin-top: 16px;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 940px;
+  }
+  
+  .desktop-26 .overlap-group8 {
+    border-radius: 8px;
+    height: 601px;
+    position: relative;
+    width: 940px;
+  }
+  
+  .desktop-26 .rectangle-903 {
+    background-color: var(--white);
+    border-radius: 8px;
+    cursor: pointer;
+    height: 601px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 940px;
+  }
+  
+  .desktop-26 .group-1172 {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    left: 26px;
+    min-width: 896px;
+    position: relative;
+    top: 25px;
+    margin-top: 20px;
+  }
+  
+  .desktop-26 .text-2 {
+    height: 17px;
+    letter-spacing: 0;
+    margin-bottom: 1.0px;
+    min-width: 9px;
+  }
+  
+  .desktop-26 .overlap-group {
+    align-items: flex-start;
+    background-color: var(--main-brand);
+    border-radius: 16px;
+    display: flex;
+    height: 32px;
+    justify-content: flex-end;
+    margin-left: 41px;
+    min-width: 32px;
+    padding: 7px 5px;
+  }
+  
+  .desktop-26 .kc {
+    height: 17px;
+    letter-spacing: 0;
+  }
+  
+  .desktop-26 .name {
+    height: 17px;
+    letter-spacing: 0;
+    margin-bottom: 1.0px;
+    margin-left: 39px;
+    min-width: 116px;
+  }
+  
+  .desktop-26 .phone {
+    height: 17px;
+    letter-spacing: 0;
+    margin-bottom: 1.0px;
+    margin-left: 62px;
+    min-width: 125px;
+  }
+  
+  .desktop-26 .calveenchikeziegmailcom {
+    height: 17px;
+    letter-spacing: 0;
+    margin-bottom: 3.0px;
+    margin-left: 113px;
+    min-width: 200px;
+  }
+  
+  .desktop-26 .group-1171 {
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 2.0px;
+    margin-left: 125px;
+    min-width: 24px;
+  }
+  
+  .desktop-26 .ellipse-29 {
+    background-color: var(--tangaroa);
+    border-radius: 2px;
+    height: 4px;
+    width: 4px;
+  }
+  
+  .desktop-26 .ellipse-3 {
+    background-color: var(--tangaroa);
+    border-radius: 2px;
+    height: 4px;
+    margin-left: 6px;
+    width: 4px;
+  }
+  
+  .desktop-26 .group-1173 {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    left: 26px;
+    min-width: 896px;
+    position: absolute;
+    top: 94px;
+  }
+  
+  .desktop-26 .text {
+    height: 17px;
+    letter-spacing: 0;
+    margin-bottom: 1.0px;
+    min-width: 13px;
+  }
+  
+  .desktop-26 .overlap-group-1 {
+    align-items: flex-start;
+    background-color: var(--main-brand);
+    border-radius: 16px;
+    display: flex;
+    height: 32px;
+    justify-content: flex-end;
+    margin-left: 37px;
+    min-width: 32px;
+    padding: 7px 5px;
+  }
+  
+  .desktop-26 .kc-1 {
+    height: 17px;
+    letter-spacing: 0;
+  }
+  
+  .desktop-26 .group-1174 {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    left: 26px;
+    min-width: 896px;
+    position: relative;
+    top: 168px;
+  }
+  
+  .desktop-26 .kc-2 {
+    height: 17px;
+    letter-spacing: 0;
+  }
+  
+  .desktop-26 .group-1175 {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    left: 26px;
+    min-width: 896px;
+    position: absolute;
+    top: 242px;
+  }
+  
+  .desktop-26 .text-5 {
+    height: 17px;
+    letter-spacing: 0;
+    margin-bottom: 1.0px;
+    min-width: 12px;
+  }
+  
+  .desktop-26 .overlap-group3-1 {
+    align-items: flex-start;
+    background-color: var(--main-brand);
+    border-radius: 16px;
+    display: flex;
+    height: 32px;
+    justify-content: flex-end;
+    margin-left: 38px;
+    min-width: 32px;
+    padding: 7px 5px;
+  }
+  
+  .desktop-26 .kc-3 {
+    height: 17px;
+    letter-spacing: 0;
+  }
+  
+  .desktop-26 .group-1210 {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    left: 26px;
+    min-width: 896px;
+    position: absolute;
+    top: 390px;
+  }
+  
+  .desktop-26 .kc-4 {
+    height: 17px;
+    letter-spacing: 0;
+  }
+  
+  .desktop-26 .group-1211 {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    left: 26px;
+    min-width: 896px;
+    position: absolute;
+    top: 464px;
+  }
+  
+  .desktop-26 .text-7 {
+    height: 17px;
+    letter-spacing: 0;
+    margin-bottom: 1.0px;
+    min-width: 11px;
+  }
+  
+  .desktop-26 .overlap-group5 {
+    align-items: flex-start;
+    background-color: var(--main-brand);
+    border-radius: 16px;
+    display: flex;
+    height: 32px;
+    justify-content: flex-end;
+    margin-left: 39px;
+    min-width: 32px;
+    padding: 7px 5px;
+  }
+  
+  .desktop-26 .kc-5 {
+    height: 17px;
+    letter-spacing: 0;
+  }
+  
+  .desktop-26 .group-1212 {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    left: 26px;
+    min-width: 896px;
+    position: absolute;
+    top: 538px;
+  }
+  
+  .desktop-26 .kc-6 {
+    height: 17px;
+    letter-spacing: 0;
+  }
+  
+  .desktop-26 .vector-42 {
+    height: 1px;
+    left: 27px;
+    position: absolute;
+    top: 67px;
+    width: 895px;
+  }
+  
+  .desktop-26 .vector-43 {
+    height: 1px;
+    left: 27px;
+    position: absolute;
+    top: 142px;
+    width: 895px;
+  }
+  
+  .desktop-26 .vector-44 {
+    height: 1px;
+    left: 27px;
+    position: absolute;
+    top: 217px;
+    width: 895px;
+  }
+  
+  .desktop-26 .vector-47 {
+    height: 1px;
+    left: 27px;
+    position: absolute;
+    top: 442px;
+    width: 895px;
+  }
+  
+  .desktop-26 .vector-48 {
+    height: 1px;
+    left: 27px;
+    position: absolute;
+    top: 517px;
+    width: 895px;
+  }
+  
+  .desktop-26 .vector-49 {
+    height: 1px;
+    left: 27px;
+    position: absolute;
+    top: 592px;
+    width: 895px;
+  }
+  
+  .desktop-26 .rectangle-932 {
+    background-color: #00c1ff0d;
+    height: 74px;
+    left: 0;
+    position: absolute;
+    top: 296px;
+    width: 940px;
+  }
+  
+  .desktop-26 .group-1209 {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    left: 26px;
+    min-width: 896px;
+    position: absolute;
+    top: 316px;
+  }
+  
+  .desktop-26 .number-1 {
+    height: 17px;
+    letter-spacing: 0;
+    margin-bottom: 1.0px;
+    min-width: 9px;
+  }
+  
+  .desktop-26 .kc-7 {
+    height: 17px;
+    letter-spacing: 0;
+  }
+  
+  .desktop-26 .vector-50 {
+    height: 1px;
+    margin-left: 8.5px;
+    margin-top: 66px;
+    width: 895px;
+  }
+  
+  .desktop-26 .group-1186 {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    margin-right: 12.0px;
+    margin-top: 208px;
+    min-width: 232px;
+  }
+  
+  .desktop-26 .arrow-down-3 {
+    height: 16px;
+    margin-bottom: 0;
+    margin-left: -1px;
+    width: 9px;
+  }
+  
+  .desktop-26 .overlap-group3-2 {
+    height: 32px;
+    margin-left: 22px;
+    position: relative;
+    width: 141px;
+  }
+  
+  .desktop-26 .text-1 {
+    height: 17px;
+    left: 0;
+    letter-spacing: 20.00px;
+    position: absolute;
+    top: 7px;
+  }
+  
+  .desktop-26 .rectangle-905 {
+    border: 1.5px solid var(--black);
+    border-radius: 8px;
+    height: 32px;
+    left: 16px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .desktop-26 .number-2 {
+    height: 17px;
+    letter-spacing: 0;
+    margin-bottom: 1.0px;
+    margin-left: 14px;
+    min-width: 18px;
+  }
+  
+  .desktop-26 .arrow-down-2 {
+    height: 16px;
+    margin-bottom: 0;
+    margin-left: 17px;
+    width: 9px;
+  }
+  
+  .desktop-26 .frame-1157 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    margin-top: 85px;
+    min-height: 800px;
+    padding: 26px 12px;
+    width: 216px;
+    z-index: 2;
+  }
+  
+  .desktop-26 .overlap-group2-1 {
+    align-self: center;
+    background-color: var(--main-brand);
+    border-radius: 75px;
+    height: 150px;
+    position: relative;
+    width: 150px;
+  }
+  
+  .desktop-26 .kc-8 {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 36px;
+    font-weight: 700;
+    height: 44px;
+    left: 49px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 53px;
+  }
+  
+  .desktop-26 .image-2 {
+    height: 150px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 150px;
+  }
+  
+  .desktop-26 .name-1 {
+    align-self: center;
+    color: var(--black);
+    font-weight: 700;
+    height: 17px;
+    margin-left: 1.0px;
+    margin-top: 21px;
+    min-width: 117px;
+  }
+  
+  .desktop-26 .managing-director {
+    align-self: center;
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    height: 12px;
+    letter-spacing: 0;
+    margin-left: 1.0px;
+    margin-top: 2px;
+    min-width: 95px;
+  }
+  
+  .desktop-26 .group-1185 {
+    align-items: flex-start;
+    align-self: center;
+    cursor: pointer;
+    display: flex;
+    margin-left: 2.0px;
+    margin-top: 22px;
+    min-width: 150px;
+  }
+  
+  .desktop-26 .overlap-group-5 {
+    border-radius: 8px;
+    height: 40px;
+    position: relative;
+    width: 148px;
+  }
+  
+  .desktop-26 .view-profile {
+    color: var(--main-brand);
+    font-family: var(--font-family-montserrat);
+    font-size: 13px;
+    font-weight: 400;
+    height: 16px;
+    left: 44px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 12px;
+  }
+  
+  .desktop-26 .show {
+    height: 15px;
+    left: 15px;
+    position: absolute;
+    top: 13px;
+    width: 18px;
+  }
+  
+  .desktop-26 .rectangle-904 {
+    border-radius: 8px;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 148px;
+  }
+  
+  .desktop-26 .vector-18 {
+    align-self: flex-end;
+    height: 1px;
+    margin-top: 14px;
+    width: 191px;
+  }
+  
+  .desktop-26 .work-phone-number {
+    height: 11px;
+    letter-spacing: 0;
+    margin-left: 8px;
+    margin-top: 23px;
+  }
+  
+  .desktop-26 .phone-1 {
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 8px;
+    margin-top: 3px;
+  }
+  
+  .desktop-26 .email-address {
+    height: 11px;
+    letter-spacing: 0;
+    margin-left: 8px;
+    margin-top: 20px;
+  }
+  
+  .desktop-26 .calveenchikeziegmailcom-1 {
+    align-self: flex-end;
+    color: var(--black);
+    font-weight: 400;
+    height: 15px;
+    margin-right: 13px;
+    margin-top: 4px;
+    min-width: 171px;
+  }
+  
+  .desktop-26 .company {
+    height: 11px;
+    letter-spacing: 0;
+    margin-left: 8px;
+    margin-top: 19px;
+  }
+  
+  .desktop-26 .digital {
+    color: var(--black);
+    font-weight: 400;
+    height: 15px;
+    margin-left: 8px;
+    margin-top: 4px;
+  }
+  
+  .desktop-26 .frame-1157-item {
+    height: 11px;
+    letter-spacing: 0;
+    margin-left: 8px;
+    margin-top: 24px;
+  }
+  
+  .desktop-26 .compapnys-website {
+    height: 11px;
+    letter-spacing: 0;
+    margin-left: 8px;
+    margin-top: 21px;
+  }
+  
+  .desktop-26 .flex-row-12 {
+    align-items: center;
+    display: flex;
+    margin-left: 10.5px;
+    margin-top: 15px;
+    min-width: 108px;
+  }
+  
+  .desktop-26 .group-119 {
+    height: 22px;
+    width: 29px;
+  }
+  
+  .desktop-26 .calveenn {
+    color: var(--black);
+    font-weight: 400;
+    height: 15px;
+    margin-bottom: 1.0px;
+    margin-left: 12px;
+    min-width: 66px;
+  }
+  
+  .desktop-26 .flex-row-13 {
+    align-items: center;
+    display: flex;
+    margin-left: 8.5px;
+    margin-top: 18px;
+    min-width: 110px;
+  }
+  
+  .desktop-26 .group-1191 {
+    height: 22px;
+    width: 31px;
+  }
+  
+  .desktop-26 .flex-row {
+    align-items: center;
+    display: flex;
+    margin-left: 10.5px;
+    margin-top: 18px;
+    min-width: 108px;
+  }
+  

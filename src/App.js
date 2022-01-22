@@ -1,16 +1,12 @@
 import "./App.css"
-import DashboardSideNavClosed from "./pages/Dashboard/DashboardSideNavClosed";
-import DashboardSideNavOpen from './pages/Dashboard/DashboardSideNavOpen';
+import "./styleguide.css"
 import React from 'react'
-import {useSelector} from 'react-redux'
+import ProfilePage from "./pages/ProfillePage/ProfilePage";
 
 export default function App() {
-  const burgerMenuOpen = useSelector(state => state.burgerOpen);
   return (
     <div>
-          {burgerMenuOpen ? 
-          <DashboardSideNavOpen /> 
-          :<DashboardSideNavClosed />}
+          <ProfilePage/>
       </div>
   )
 }

@@ -1,0 +1,924 @@
+/* screen - desktop-21 */
+
+.desktop-21 {
+    align-items: flex-start;
+    background-color: var(--main-gray);
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .desktop-21 .nav-bar {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    height: 74px;
+    left: -1px;
+    min-width: 1442px;
+    padding: 16px 24px;
+    position: fixed;
+    top: -1px;
+    z-index: 5;
+  }
+  
+  .desktop-21 .menu {
+    height: 32px;
+    margin-bottom: 2.0px;
+    width: 32px;
+  }
+  
+  .desktop-21 .helloprofile {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-bottom: 4.0px;
+    margin-left: 16px;
+    min-width: 140px;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .seperator {
+    align-self: flex-start;
+    background-color: var(--loblolly);
+    border-radius: 2px;
+    height: 40px;
+    margin-left: 20px;
+    width: 1px;
+  }
+  
+  .desktop-21 .profile-manager {
+    color: var(--tangaroa);
+    font-weight: 400;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 2.0px;
+    margin-left: 16px;
+    min-width: 129px;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .seperator-1 {
+    align-self: flex-start;
+    background-color: var(--loblolly);
+    border-radius: 2px;
+    height: 40px;
+    margin-left: 829px;
+    width: 1px;
+  }
+  
+  .desktop-21 .overlap-group3 {
+    height: 22px;
+    margin-bottom: 2.04px;
+    margin-left: 26px;
+    position: relative;
+    width: 21px;
+  }
+  
+  .desktop-21 .ellipse_739 {
+    border-radius: 9.99px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+  }
+  
+  .desktop-21 .line_181 {
+    height: 7px;
+    left: 15px;
+    position: absolute;
+    top: 15px;
+    width: 6px;
+  }
+  
+  .desktop-21 .overlap-group2 {
+    align-self: flex-start;
+    height: 25px;
+    margin-left: 30px;
+    margin-top: 4px;
+    position: relative;
+    width: 26px;
+  }
+  
+  .desktop-21 .message {
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 20px;
+  }
+  
+  .desktop-21 .overlap-group {
+    align-items: flex-start;
+    background-color: var(--main-brand);
+    border-radius: 6px;
+    display: flex;
+    height: 12px;
+    left: 14px;
+    min-width: 12px;
+    padding: 1.5px 3px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .desktop-21 .number {
+    height: 8px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    width: 6px;
+  }
+  
+  .desktop-21 .group-container {
+    height: 27px;
+    margin-bottom: 7.0px;
+    margin-left: 24px;
+    position: relative;
+    width: 23px;
+  }
+  
+  .desktop-21 .group-1128 {
+    height: 22px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 19px;
+  }
+  
+  .desktop-21 .overlap-group-1 {
+    align-items: flex-start;
+    background-color: var(--main-brand);
+    border-radius: 6px;
+    display: flex;
+    height: 12px;
+    left: 11px;
+    min-width: 12px;
+    padding: 1.5px 3px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .desktop-21 .rectangle-881 {
+    height: 30px;
+    margin-bottom: 2.0px;
+    margin-left: 28px;
+    width: 30px;
+  }
+  
+  .desktop-21 .frame-1149 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    min-height: 800px;
+    padding: 16px 0;
+    width: 216px;
+    z-index: 3;
+  }
+  
+  .desktop-21 .rectangle-881-1 {
+    height: 100px;
+    margin-top: 15px;
+    width: 100px;
+  }
+  
+  .desktop-21 .flex-row {
+    align-items: center;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 20.65px;
+    margin-top: 30px;
+    min-width: 123px;
+  }
+  
+  .desktop-21 .overlap-group1 {
+    height: 18px;
+    margin-bottom: 1.65px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .desktop-21 .ellipse_736 {
+    border-radius: 5.2px;
+    height: 10px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+  }
+  
+  .desktop-21 .path_33945 {
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 16px;
+  }
+  
+  .desktop-21 .my-account {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 21px;
+    min-width: 86px;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .vector-5 {
+    height: 2px;
+    margin-top: 20px;
+    width: 190px;
+  }
+  
+  .desktop-21 .flex-row-1 {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 30.0px;
+    margin-top: 30px;
+    min-width: 146px;
+  }
+  
+  .desktop-21 .category {
+    height: 18px;
+    width: 18px;
+  }
+  
+  .desktop-21 .group-1124 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 0;
+    min-width: 108px;
+  }
+  
+  .desktop-21 .overview {
+    height: 17px;
+    letter-spacing: 0;
+    width: 106px;
+  }
+  
+  .desktop-21 .flex-row-2 {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 14.26px;
+    margin-top: 28px;
+    min-width: 160px;
+  }
+  
+  .desktop-21 .document {
+    height: 18px;
+    width: 17px;
+  }
+  
+  .desktop-21 .contact-manager {
+    cursor: pointer;
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 20px;
+  }
+  
+  .desktop-21 .overlap-group2-1 {
+    align-items: flex-start;
+    background-color: var(--robins-egg-blue);
+    display: flex;
+    height: 40px;
+    margin-top: 18px;
+    min-width: 216px;
+    padding: 10px 19.6px;
+  }
+  
+  .desktop-21 .work {
+    height: 18px;
+    margin-top: 0;
+    width: 19px;
+  }
+  
+  .desktop-21 .profile-manager-1 {
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 19px;
+  }
+  
+  .desktop-21 .flex-row-3 {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 33.0px;
+    margin-top: 16px;
+    min-width: 143px;
+  }
+  
+  .desktop-21 .chart {
+    align-self: flex-end;
+    height: 18px;
+    width: 18px;
+  }
+  
+  .desktop-21 .analytics {
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 19px;
+    width: 106px;
+  }
+  
+  .desktop-21 .flex-row-4 {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 20.9px;
+    margin-top: 28px;
+    min-width: 96px;
+  }
+  
+  .desktop-21 .overlap-group-2 {
+    align-items: flex-start;
+    align-self: flex-end;
+    background-image: url(./img/path-33946-1@2x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    height: 18px;
+    justify-content: flex-end;
+    min-width: 17px;
+    padding: 5.8px 5.3px;
+  }
+  
+  .desktop-21 .ellipse_737 {
+    border-radius: 3.19px;
+    height: 6px;
+    width: 6px;
+  }
+  
+  .desktop-21 .settings {
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 20px;
+  }
+  
+  .desktop-21 .flex-row-5 {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 30.0px;
+    margin-top: 28px;
+    min-width: 146px;
+  }
+  
+  .desktop-21 .group-1125 {
+    align-self: flex-end;
+    height: 18px;
+    width: 18px;
+  }
+  
+  .desktop-21 .help-support {
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 20px;
+  }
+  
+  .desktop-21 .flex-row-6 {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+    min-width: 82px;
+  }
+  
+  .desktop-21 .group-7080 {
+    height: 19px;
+    width: 18px;
+  }
+  
+  .desktop-21 .about {
+    align-self: flex-end;
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 20px;
+    min-width: 44px;
+  }
+  
+  .desktop-21 .vector-6 {
+    height: 2px;
+    margin-top: 208px;
+    width: 190px;
+  }
+  
+  .desktop-21 .flex-row-7 {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 19.73px;
+    margin-top: 26px;
+    min-width: 98px;
+  }
+  
+  .desktop-21 .logout {
+    height: 18px;
+    width: 19px;
+  }
+  
+  .desktop-21 .log-out {
+    height: 17px;
+    letter-spacing: 0;
+    margin-left: 22px;
+  }
+  
+  .desktop-21 .group-1149 {
+    align-items: flex-end;
+    display: flex;
+    height: 219px;
+    left: 232px;
+    min-width: 978px;
+    position: fixed;
+    top: 72px;
+    z-index: 4;
+  }
+  
+  .desktop-21 .overlap-group3-1 {
+    height: 220px;
+    margin-bottom: -1px;
+    position: relative;
+    width: 976px;
+  }
+  
+  .desktop-21 .rectangle-893 {
+    background-color: var(--main-gray);
+    height: 219px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 976px;
+  }
+  
+  .desktop-21 .hero-title-headingsl {
+    height: 40px;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    top: 36px;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .vector-5-1 {
+    height: 2px;
+    left: 18px;
+    position: absolute;
+    top: 218px;
+    width: 940px;
+  }
+  
+  .desktop-21 .flex-col {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-top: 372px;
+    min-height: 412px;
+    width: 200px;
+    z-index: 2;
+  }
+  
+  .desktop-21 .overlap-group7 {
+    height: 41px;
+    margin-right: 10.0px;
+    position: relative;
+    width: 170px;
+  }
+  
+  .desktop-21 .lead-sales-marketing {
+    color: var(--black);
+    font-weight: 700;
+    left: 0;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .tentacles-inc {
+    color: var(--black);
+    font-weight: 500;
+    left: 0;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .flex-row-8 {
+    align-items: flex-end;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 11.0px;
+    margin-top: 12px;
+    min-width: 153px;
+  }
+  
+  .desktop-21 .group-1200 {
+    background-image: url(./img/tick-square-3@2x.svg);
+    background-size: 100% 100%;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .desktop-21 .default-work-profile {
+    color: var(--black);
+    font-weight: 500;
+    line-height: 18px;
+    margin-left: 11px;
+    min-height: 18px;
+    min-width: 122px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .overlap-group6 {
+    align-items: flex-start;
+    background-image: url(./img/frame-1150@2x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    height: 307px;
+    justify-content: flex-end;
+    margin-right: 0;
+    margin-top: 24px;
+    min-width: 200px;
+    padding: 5.4px 10.0px;
+  }
+  
+  .desktop-21 .rectangle-872 {
+    height: 105px;
+    object-fit: cover;
+    width: 180px;
+  }
+  
+  .desktop-21 .rectangle-901 {
+    background-color: var(--main-brand);
+    border-radius: 2px;
+    height: 4px;
+    margin-right: 4.0px;
+    margin-top: 4px;
+    width: 50px;
+  }
+  
+  .desktop-21 .ut-est-et-deserunt-e {
+    color: var(--black);
+    font-weight: 400;
+    left: 250px;
+    line-height: 18px;
+    position: fixed;
+    text-align: justify;
+    top: 163px;
+    width: 532px;
+    z-index: 6;
+  }
+  
+  .desktop-21 .personal-profile {
+    color: var(--black);
+    font-weight: 700;
+    left: 270px;
+    line-height: 21px;
+    position: fixed;
+    text-align: center;
+    top: 260px;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  
+  .desktop-21 .group-1116 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 474px;
+    min-height: 31px;
+    position: fixed;
+    top: 260px;
+    width: 155px;
+    z-index: 9;
+  }
+  
+  .desktop-21 .work-profile {
+    color: var(--black);
+    font-weight: 700;
+    line-height: 21px;
+    margin-right: 1.0px;
+    min-height: 21px;
+    min-width: 88px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .rectangle-869 {
+    background-color: var(--main-brand);
+    border-radius: 2px;
+    height: 4px;
+    margin-right: 2.0px;
+    margin-top: 6px;
+    width: 153px;
+  }
+  
+  .desktop-21 .flex-row-9 {
+    align-items: flex-start;
+    display: flex;
+    height: 539px;
+    margin-left: 51px;
+    margin-top: 339px;
+    min-width: 933px;
+    z-index: 1;
+  }
+  
+  .desktop-21 .overlap-group-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    min-height: 388px;
+    width: 180px;
+  }
+  
+  .desktop-21 .overlap-group4 {
+    height: 41px;
+    margin-left: 0;
+    position: relative;
+    width: 178px;
+  }
+  
+  .desktop-21 .chief-marketing-officer {
+    color: var(--black);
+    font-weight: 700;
+    left: 1px;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .redstart-agency-limited {
+    color: var(--black);
+    font-weight: 500;
+    left: 0;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .overlap-group8 {
+    align-items: center;
+    background-image: url(./img/group-1152@2x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 61px;
+    min-height: 286px;
+    width: 180px;
+  }
+  
+  .desktop-21 .redstart {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 36px;
+    margin-right: 17.0px;
+    margin-top: 31px;
+    min-height: 36px;
+    min-width: 113px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .name {
+    align-self: flex-start;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-left: 25.0px;
+    margin-top: 83px;
+    min-height: 18px;
+    min-width: 68px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .chief-marketing-officer-1 {
+    letter-spacing: 0;
+    line-height: 13.5px;
+    margin-right: 23.0px;
+    min-height: 14px;
+    min-width: 107px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .overlap-group9 {
+    align-items: flex-start;
+    background-image: url(./img/rectangle-900@2x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    height: 87px;
+    margin-left: 0;
+    margin-top: 17px;
+    min-width: 180px;
+    padding: 21.0px 22.0px;
+  }
+  
+  .desktop-21 .x2348123456789-janes {
+    letter-spacing: 0;
+    line-height: 13.5px;
+    min-height: 42px;
+  }
+  
+  .desktop-21 .overlap-group5 {
+    align-self: center;
+    height: 286px;
+    margin-left: 56px;
+    margin-top: 16.88px;
+    position: relative;
+    width: 180px;
+  }
+  
+  .desktop-21 .group-1131 {
+    cursor: pointer;
+    height: 286px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 180px;
+  }
+  
+  .desktop-21 .group-1147 {
+    height: 45px;
+    left: 67px;
+    position: absolute;
+    top: 68px;
+    width: 46px;
+  }
+  
+  .desktop-21 .create-new-work-profile {
+    color: var(--mountain-mist-2);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 600;
+    left: 42px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 178px;
+  }
+  
+  .desktop-21 .flex-col-1 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 52px;
+    min-height: 522px;
+    width: 234px;
+  }
+  
+  .desktop-21 .flex-row-10 {
+    align-items: flex-end;
+    display: flex;
+    height: 21px;
+    margin-right: 3px;
+    min-width: 180px;
+  }
+  
+  .desktop-21 .tick-square {
+    background-image: url(./img/tick-square-2@2x.svg);
+    background-size: 100% 100%;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .desktop-21 .profile-card-preview {
+    color: var(--black);
+    font-weight: 700;
+    line-height: 21px;
+    margin-left: 15px;
+    min-height: 21px;
+    min-width: 145px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .group-1201 {
+    align-items: flex-start;
+    display: flex;
+    height: 21px;
+    margin-top: 480px;
+    min-width: 234px;
+  }
+  
+  .desktop-21 .preview-orientation {
+    color: var(--black);
+    font-weight: 700;
+    line-height: 21px;
+    min-height: 21px;
+    min-width: 143px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .desktop-21 .rectangle-896 {
+    align-self: center;
+    border-radius: 1px;
+    cursor: pointer;
+    height: 15px;
+    margin-left: 28px;
+    width: 22px;
+  }
+  
+  .desktop-21 .overlap-group-3 {
+    height: 24px;
+    margin-left: 19px;
+    margin-top: -1.0px;
+    position: relative;
+    width: 22px;
+  }
+  
+  .desktop-21 .vector-12 {
+    height: 22px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 2px;
+  }
+  
+  .desktop-21 .rectangle-897 {
+    background-color: var(--main-brand);
+    border-radius: 1px;
+    height: 17px;
+    left: 2px;
+    position: absolute;
+    top: 4px;
+    transform: rotate(90.00deg);
+    width: 24px;
+  }
+  
+  .desktop-21 .group-1135 {
+    align-items: flex-end;
+    align-self: flex-end;
+    background-color: var(--white);
+    background-image: url(./img/ellipse-24-1@2x.svg);
+    background-size: 100% 100%;
+    border-radius: 24px;
+    display: flex;
+    height: 48px;
+    justify-content: flex-end;
+    margin-left: 183px;
+    min-width: 48px;
+    padding: 13.4px 13px;
+  }
+  
+  .desktop-21 .subtract {
+    height: 19px;
+    width: 19px;
+  }
+  
+  .desktop-21 .portfolio-page {
+    color: var(--black);
+    font-weight: 700;
+    left: 728px;
+    line-height: 21px;
+    position: fixed;
+    text-align: center;
+    top: 260px;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  
+  .desktop-21 .group-1208 {
+    align-items: center;
+    display: flex;
+    height: 18px;
+    left: 1076px;
+    min-width: 115px;
+    position: fixed;
+    top: 123px;
+    z-index: 10;
+  }
+  
+  .desktop-21 .group-1147-1 {
+    height: 12px;
+    margin-left: -1px;
+    width: 13px;
+  }
+  
+  .desktop-21 .hero-title-headingsl-1 {
+    height: 18px;
+    letter-spacing: 0;
+    margin-left: 7px;
+    min-width: 94px;
+  }
+  

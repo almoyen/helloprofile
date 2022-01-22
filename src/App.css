@@ -1,63 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,500,600|Mulish:400,700,600");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,500,600|Mulish:700");
 
-.screen a {
-  display: contents;
-  text-decoration: none;
-}
-
-.container-center-horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  pointer-events: none;
-  width: 100%;
-}
-
-.container-center-horizontal > * {
-  flex-shrink: 0;
-  pointer-events: auto;
-}
-
-.overlay {
-  display: none;
-  height: 100%;
-  opacity: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.overlay.animate-appear {
-  animation: reveal 0.3s ease-in-out 1 normal forwards;
-  display: block;
-  opacity: 0;
-}
-
-.overlay.animate-disappear {
-  animation: reveal 0.3s ease-in-out 1 reverse forwards;
-  display: block;
-  opacity: 1;
-}
-
-.align-self-flex-start {
-  align-self: flex-start;
-}
-
-.align-self-flex-end {
-  align-self: flex-end;
-}
-
-.align-self-flex-center {
-  align-self: flex-center;
-}
-
-.valign-text-middle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/61a25540a28b3fe153421f2a.61a2554365e471451e56b51a.dDkfQcu.hcp.png");
 
 * {
   box-sizing: border-box;

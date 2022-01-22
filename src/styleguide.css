@@ -1,0 +1,424 @@
+:root { 
+    --active: #49e213;
+    --alto: #dddddd;
+    --black: #000000;
+    --black-2: #0000000d;
+    --brand-black: #1c222d;
+    --brand-gray: #747272;
+    --brand-light-blue: #e5f9ff;
+    --brand-light-gray: #e6e7e9;
+    --cultured-pearl: #f5f5f5;
+    --desert-storm: #f8f8fa;
+    --dove-gray: #696a6b;
+    --eerie-black: #181819;
+    --eerie-black-2: #1818196b;
+    --eerie-black-3: #181819e6;
+    --eerie-black-4: #181819b2;
+    --eucalyptus: #219653;
+    --eucalyptus-2: #2196531a;
+    --granite-gray: #666666;
+    --haiti: #200e32;
+    --licorice: #151515;
+    --licorice-2: #111111;
+    --licorice-3: #1111111a;
+    --loblolly: #c1c7d0;
+    --main-brand: #00c1ff;
+    --main-gray: #fafafa;
+    --mine-shaft: #303030;
+    --mirage: #111827;
+    --mountain-mist: #919294;
+    --mountain-mist-2: #999999;
+    --red: #ff0000;
+    --robins-egg-blue: #00c1ff1a;
+    --stroke: #0000001a;
+    --tangaroa: #091e42;
+    --white: #ffffff;
+   
+    --font-size-l: 13px;
+    --font-size-m: 12px;
+    --font-size-s: 10px;
+    --font-size-xl: 14px;
+    --font-size-xxl: 16px;
+    --font-size-xxxl: 18px;
+    --font-size-xxxxl: 24px;
+   
+    --font-family-montserrat: "Montserrat", Helvetica;
+    --font-family-mulish: "Mulish", Helvetica;
+    --font-family-mulish-regular: "Mulish-Regular", Helvetica;
+    --font-family-mulish-semibold: "Mulish-SemiBold", Helvetica;
+  }
+  .body {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+  
+  .status {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+  
+  .headingh5 {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+  
+  .captionregular {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .captionsemibold12 {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+  
+  .captionsemibold16 {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+  
+  .button-stylemedium {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+  
+  .subtitleregular {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .montserrat-normal-tangaroa-14px {
+    color: var(--tangaroa);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-normal-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-normal-eerie-black-14px {
+    color: var(--eerie-black-2);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-bold-licorice-12px {
+    color: var(--licorice);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-normal-white-10px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-normal-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-normal-licorice-14px {
+    color: var(--licorice-2);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-bold-licorice-12px-2 {
+    color: var(--licorice-2);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-semi-bold-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .mulish-regular-normal-sonic-silver-16px {
+    color: var(--brand-gray);
+    font-family: var(--font-family-mulish-regular);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-bold-tangaroa-24px {
+    color: var(--tangaroa);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxxxl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .mulish-bold-eerie-black-16px {
+    color: var(--eerie-black-3);
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-bold-black-12px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-bold-robins-egg-blue-24px {
+    color: var(--main-brand);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxxxl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-semi-bold-tangaroa-14px {
+    color: var(--tangaroa);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .montserrat-normal-robins-egg-blue-9px {
+    color: var(--main-brand);
+    font-family: var(--font-family-montserrat);
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-bold-white-12px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-normal-robins-egg-blue-14px {
+    color: var(--main-brand);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-bold-tangaroa-35px {
+    color: var(--tangaroa);
+    font-family: var(--font-family-montserrat);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .mulish-semi-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-mulish-semibold);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .montserrat-bold-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxxxl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .mulish-bold-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-bold-black-10px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-normal-black-8px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-normal-white-9px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-normal-licorice-10px {
+    color: var(--licorice-2);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .mulish-regular-normal-shark-16px {
+    color: var(--brand-black);
+    font-family: var(--font-family-mulish-regular);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .mulish-bold-robins-egg-blue-16px {
+    color: var(--main-brand);
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .montserrat-semi-bold-mirage-10px {
+    color: var(--mirage);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .montserrat-medium-licorice-13px {
+    color: var(--licorice);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .montserrat-normal-mountain-mist-14px {
+    color: var(--mountain-mist-2);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-semi-bold-robins-egg-blue-14px {
+    color: var(--main-brand);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .mulish-regular-normal-white-16px {
+    font-family: var(--font-family-mulish-regular);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .mulish-regular-normal-eerie-black-16px {
+    color: var(--eerie-black-4);
+    font-family: var(--font-family-mulish-regular);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .mulish-regular-normal-shark-14px {
+    color: var(--brand-black);
+    font-family: var(--font-family-mulish-regular);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .border-1px-stroke {
+    border: 1px solid var(--stroke);
+  }
+  
+  .border-2px-haiti {
+    border: 2px solid var(--haiti);
+  }
+  
+  .border-1px-brand-light-gray {
+    border: 1px solid var(--brand-light-gray);
+  }
+  
+  .border-1-5px-licorice-2 {
+    border: 1.5px solid var(--licorice-2);
+  }
+  
+  .border-1px-dove-gray {
+    border: 1px solid var(--dove-gray);
+  }
+  
+  .border-2px-main-brand {
+    border: 2px solid var(--main-brand);
+  }
+  
+  .border-1px-alto {
+    border: 1px solid var(--alto);
+  }
+  
+  .border-1px-black-2 {
+    border: 1px solid var(--black-2);
+  }
+  

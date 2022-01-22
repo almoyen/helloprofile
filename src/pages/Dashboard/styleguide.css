@@ -7,16 +7,25 @@
   --brand-gray: #747272;
   --brand-light-gray: #e6e7e9;
   --concrete: #f3f3f3;
-  --eerie-black: #181819e6;
-  --eerie-black-2: #181819b2;
+  --desert-storm: #f8f8fa;
+  --dove-gray: #696a6b;
+  --eerie-black: #181819;
+  --eerie-black-2: #1818196b;
+  --eerie-black-3: #181819e6;
+  --eerie-black-4: #181819b2;
   --granite-gray: #666666;
   --haiti: #200e32;
   --licorice: #111111;
+  --licorice-2: #151515;
   --loblolly: #c1c7d0;
   --log-cabin: #222222;
   --main-brand: #00c1ff;
   --main-gray: #fafafa;
   --mine-shaft: #333333;
+  --mountain-mist: #919294;
+  --mountain-mist-2: #999999;
+  --red: #ff0000;
+  --robins-egg-blue: #00c1ff1a;
   --stroke: #0000001a;
   --tangaroa: #091e42;
   --white: #ffffff;
@@ -25,12 +34,14 @@
   --font-size-m: 14px;
   --font-size-s: 12px;
   --font-size-xl: 18px;
-  --font-size-xxl: 20px;
-  --font-size-xxxl: 24px;
-  --font-size-xxxxl: 35px;
+  --font-size-xs: 10px;
+  --font-size-xxl: 24px;
+  --font-size-xxs: 9px;
  
   --font-family-montserrat: "Montserrat", Helvetica;
   --font-family-mulish: "Mulish", Helvetica;
+  --font-family-mulish-regular: "Mulish-Regular", Helvetica;
+  --font-family-mulish-semibold: "Mulish-SemiBold", Helvetica;
 }
 .body {
   font-family: var(--font-family-montserrat);
@@ -43,14 +54,6 @@
 .status {
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-.headingh2 {
-  font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-xxxl);
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0;
@@ -72,6 +75,30 @@
   letter-spacing: 0;
 }
 
+.captionsemibold12 {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.captionsemibold16 {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.button-stylemedium {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
 .subtitleregular {
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-l);
@@ -80,8 +107,32 @@
   letter-spacing: 0;
 }
 
+.montserrat-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
 .montserrat-normal-tangaroa-14px {
   color: var(--tangaroa);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-normal-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-normal-white-14px {
+  color: var(--white);
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -96,6 +147,14 @@
   font-weight: 700;
 }
 
+.montserrat-normal-licorice-14px {
+  color: var(--licorice);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
 .montserrat-semi-bold-tangaroa-14px {
   color: var(--tangaroa);
   font-family: var(--font-family-montserrat);
@@ -104,18 +163,34 @@
   font-weight: 600;
 }
 
-.mulish-normal-sonic-silver-16px {
+.mulish-regular-normal-sonic-silver-16px {
   color: var(--brand-gray);
-  font-family: var(--font-family-mulish);
+  font-family: var(--font-family-mulish-regular);
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
 }
 
+.montserrat-bold-tangaroa-35px {
+  color: var(--tangaroa);
+  font-family: var(--font-family-montserrat);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+
 .mulish-bold-eerie-black-16px {
-  color: var(--eerie-black);
+  color: var(--eerie-black-3);
   font-family: var(--font-family-mulish);
   font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-robins-egg-blue-24px {
+  color: var(--main-brand);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 700;
 }
@@ -128,25 +203,57 @@
   font-weight: 600;
 }
 
+.montserrat-normal-robins-egg-blue-9px {
+  color: var(--main-brand);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-licorice-12px-2 {
+  color: var(--licorice-2);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-robins-egg-blue-14px {
+  color: var(--main-brand);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
 .mulish-semi-bold-white-16px {
   color: var(--white);
-  font-family: var(--font-family-mulish);
+  font-family: var(--font-family-mulish-semibold);
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 600;
 }
 
-.montserrat-normal-white-10px {
+.montserrat-bold-tangaroa-24px {
+  color: var(--tangaroa);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-white-9px {
   color: var(--white);
   font-family: var(--font-family-montserrat);
-  font-size: 10px;
+  font-size: var(--font-size-xxs);
   font-style: normal;
   font-weight: 400;
 }
 
-.mulish-normal-shark-16px {
+.mulish-regular-normal-shark-16px {
   color: var(--brand-black);
-  font-family: var(--font-family-mulish);
+  font-family: var(--font-family-mulish-regular);
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
@@ -160,32 +267,56 @@
   font-weight: 700;
 }
 
-.montserrat-bold-tangaroa-35px {
-  color: var(--tangaroa);
+.montserrat-bold-white-12px {
+  color: var(--white);
   font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-xxxxl);
+  font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 700;
 }
 
-.mulish-normal-white-16px {
-  font-family: var(--font-family-mulish);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.mulish-normal-eerie-black-16px {
+.montserrat-normal-eerie-black-16px {
   color: var(--eerie-black-2);
-  font-family: var(--font-family-mulish);
+  font-family: var(--font-family-montserrat);
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
 }
 
-.mulish-normal-shark-14px {
-  color: var(--brand-black);
+.mulish-bold-robins-egg-blue-14px {
+  color: var(--main-brand);
   font-family: var(--font-family-mulish);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-semi-bold-robins-egg-blue-14px {
+  color: var(--main-brand);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mulish-regular-normal-white-16px {
+  font-family: var(--font-family-mulish-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mulish-regular-normal-eerie-black-16px {
+  color: var(--eerie-black-4);
+  font-family: var(--font-family-mulish-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mulish-regular-normal-shark-14px {
+  color: var(--brand-black);
+  font-family: var(--font-family-mulish-regular);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
@@ -193,6 +324,14 @@
 
 .border-1px-stroke {
   border: 1px solid var(--stroke);
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+
+.border-2px-haiti {
+  border: 2px solid var(--haiti);
 }
 
 .border-1px-alto {
@@ -203,6 +342,10 @@
   border: 1px solid var(--brand-light-gray);
 }
 
-.border-2px-haiti {
-  border: 2px solid var(--haiti);
+.border-2px-main-brand {
+  border: 2px solid var(--main-brand);
+}
+
+.border-1-5px-licorice {
+  border: 1.5px solid var(--licorice);
 }
