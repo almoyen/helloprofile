@@ -5,7 +5,8 @@ const initialState = {
     showContactManager: true,
     showProfileSlide: false,
     profileSlideContent: [],
-    currentPage: "Overview"
+    currentPage: "Overview",
+    closeHeader: false
 }
 
 const reducer = (state = initialState, action) => {
@@ -28,6 +29,10 @@ const reducer = (state = initialState, action) => {
 
     if (action.type === "changePage") {
         return {...state, currentPage: action.payload}
+    }
+
+    if (action.type === "closeHeader") {
+        return {...state, closeHeader: action.payload}
     }
 
     

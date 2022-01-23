@@ -10,12 +10,16 @@ import SocialMedia from "./Components/SocialMedia";
 import Booking from "./Components/Booking";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import {useSelector} from 'react-redux';
 
 export default function ProfilePage() {
+
+    const closeHeader = useSelector(state => state.closeHeader);
+    console.log(closeHeader)
   return (
    
       <div className="desktop-30 screen">
-        <Header />
+        {closeHeader ? null : <Header />}
         <div className="frame-1252">
           <div className="overlap-group-container">
             <Cover />
